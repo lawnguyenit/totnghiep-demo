@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//lnit.id.vn//totnghiep//VI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:le-tot-nghiep-nguyen-2026@lnit.id.vn
+DTSTAMP:20261120T113259Z
+DTSTART:20261129T060000Z
+DTEND:20261129T080000Z
+SUMMARY:Lễ tốt nghiệp của Nguyên
+LOCATION:Trường ĐH Công nghệ Kỹ thuật Vĩnh Long
+DESCRIPTION:Trao bằng 13h\, dự kiến xong khoảng 15h. Gặp nhau ở
+  khu nhà thi đấu đa năng.\nhttps://lawnguyenit.github.io/totnghiep-d
+ emo/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mai là lễ tốt nghiệp của Nguyên
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lễ tốt nghiệp của Nguyên sau 2 giờ nữa
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
